@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>22-Day Roadtrip</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#day1">Day 1</a></li>
+            <li><a href="#day2">Day 2</a></li>
+            <!-- Voeg meer dagen toe -->
+        </ul>
+    </nav>
+
+    <main>
+        <section id="day1">
+            <h1>Day 1: New York to Philadelphia</h1>
+            <h2>Stops</h2>
+            <ul>
+                <li>Stop 1: Princeton University (Coordinates: 40.343, -74.655)</li>
+                <li>Stop 2: Liberty Bell (Coordinates: 39.949, -75.150)</li>
+            </ul>
+            <h2>Hotel</h2>
+            <div class="hotel">
+                <img src="hotel1.jpg" alt="Hotel in Philadelphia">
+                <p>Name: The Ritz-Carlton Philadelphia</p>
+                <p>Coordinates: 39.950, -75.164</p>
+            </div>
+            <h2>Weather</h2>
+            <div class="weather-widget">
+                <a class="weatherwidget-io" href="https://forecast7.com/en/39d95n75d16/philadelphia/" data-label_1="Philadelphia" data-label_2="Weather" data-theme="original">Philadelphia Weather</a>
+            </div>
+        </section>
+        <!-- Voeg meer dagen toe -->
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        // Weather widget script
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+        if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
+        fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
+</body>
+</html>
