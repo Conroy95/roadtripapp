@@ -12,7 +12,7 @@
         <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
         <div class="menu" id="menu">
             <a href="../index.html">Home</a>
-            <a href="dag1.html">Dag 1</a>
+            <a class="active" href="dag1.html">Dag 1</a>
             <a href="dag2.html">Dag 2</a>
             <a href="dag3.html">Dag 3</a>
             <a href="dag4.html">Dag 4</a>
@@ -37,29 +37,35 @@
         </div>
     </div>
 	<div class="container">
-		<h1>Dag 1: Van New York naar Washington DC</h1>
-
-		<p><strong>Start:</strong> New York City</p>
-		<p><strong>Eindbestemming:</strong> Washington DC</p>
-
-		<h2>Hotel: The Capitol Hotel</h2>
-		<p><strong>Locatie:</strong> 38.8977° N, 77.0365° W</p>
-		<img src="../images/hotel1.png" alt="Capitol Hotel" class="hotel-img">
+		<h1>Dag 1: Los Angeles</h1>
 		
-		<div class="container">
+		<p><strong>Start:</strong> Amsterdam</p>
+		<p><strong>Tussenstop:</strong> New York City</p>
+		<p><strong>Eindbestemming:</strong> Los Angeles</p>
+		
+		<div class="hotel">
+			<h2>Hotel: Hampton Inn By Hilton Los Angeles Airport</h2>
+			<p><strong>Locatie:</strong> 33.942722, -118.369611</p>
+			<img src="../images/hotel1.png" class="hotel-img">
+			<br>
+		</div>		
+		
+		<div class="stops">
+			<h2>Stops</h2>
+			<h3>Onderweg Stop 1: Auto ophalen</h3>
+			<p><strong>Locatie:</strong> </p>
+			<br>
+		</div>
+		
+		<div class="weather">
 			<h2>Weather</h2>
 			<a class="weatherwidget-io" href="https://forecast7.com/nl/34d05n118d24/los-angeles/" data-label_1="LOS ANGELES" data-label_2="WEATHER" data-icons="Climacons Animated" data-theme="pure" data-basecolor="" >LOS ANGELES WEATHER</a>
 			<script>
 			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 			</script>
 			<br>
-		</div>		
+		</div>
 		
-		<h2>Onderweg Stop 1: Philadelphia</h2>
-		<p><strong>Locatie:</strong> 39.9526° N, 75.1652° W</p>
-
-		<h2>Onderweg Stop 2: Baltimore</h2>
-		<p><strong>Locatie:</strong> 39.2904° N, 76.6122° W</p>
 	</div>
 </body>
 </html>

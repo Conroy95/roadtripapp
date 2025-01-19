@@ -45,6 +45,10 @@ h1, h2 {
     color: #3a2e1e;
 }
 
+.active {
+  background-color: #5c3d2e;
+  color: white;
+}
 .container{
 	padding-left: 10px;
     padding-right: 10px;
