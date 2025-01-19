@@ -1,97 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>22-Day Roadtrip</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('/w3images/forestbridge.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#day1">Day 1</a></li>
-            <li><a href="#day2">Day 2</a></li>
-            <li><a href="#day3">Day 3</a></li>
-            <li><a href="#day1">Day 1</a></li>
-            <li><a href="#day2">Day 2</a></li>
-            <li><a href="#day3">Day 3</a></li>
-            <li><a href="#day1">Day 1</a></li>
-            <li><a href="#day2">Day 2</a></li>
-            <li><a href="#day3">Day 3</a></li>
-            <li><a href="#day1">Day 1</a></li>
-            <li><a href="#day2">Day 2</a></li>
-            <li><a href="#day3">Day 3</a></li>
-            <li><a href="#day1">Day 1</a></li>
-            <li><a href="#day2">Day 2</a></li>
-            <li><a href="#day3">Day 3</a></li>
-            <!-- Voeg meer dagen toe -->
-        </ul>
-    </nav>
 
-    <main>
-        <section id="day1">
-            <h1>Day 1: New York to Philadelphia</h1>
-            <h2>Stops</h2>
-            <ul>
-                <li>Stop 1: Princeton University (Coordinates: 40.343, -74.655)</li>
-                <li>Stop 2: Liberty Bell (Coordinates: 39.949, -75.150)</li>
-            </ul>
-            <h2>Hotel</h2>
-            <div class="hotel">
-                <img src="images/hotel1.png" alt="Hampton Inn By Hilton Los Angeles Airport">
-                <p>Name: Hampton Inn By Hilton Los Angeles Airport</p>
-                <p>Coordinates: 33.942722, -118.369611</p>
-            </div>
-            <h2>Weather</h2>
-            <div class="weather-widget">
-                <a class="weatherwidget-io" href="https://forecast7.com/en/34d05n118d24/los-angeles/" data-label_1="Los Angeles" data-label_2="Weather" data-days="3" data-theme="pure">Los Angeles Weather</a>
-            </div>
-        </section>
-        <section id="day2">
-            <h1>Day 2: New York to Philadelphia</h1>
-            <h2>Stops</h2>
-            <ul>
-                <li>Stop 1: Princeton University (Coordinates: 40.343, -74.655)</li>
-                <li>Stop 2: Liberty Bell (Coordinates: 39.949, -75.150)</li>
-            </ul>
-            <h2>Hotel</h2>
-            <div class="hotel">
-                <img src="images/hotel2.png" alt="Hampton Inn By Hilton Los Angeles Airport">
-                <p>Name: Hampton Inn By Hilton Los Angeles Airport</p>
-                <p>Coordinates: 33.942722, -118.369611</p>
-            </div>
-            <h2>Weather</h2>
-            <div class="weather-widget">
-                <a class="weatherwidget-io" href="https://forecast7.com/en/35d56n121d08/cambria/" data-label_1="Cambria" data-label_2="Weather" data-days="3" data-theme="pure">Cambria Weather</a>
-            </div>
-        </section>
-        <section id="day3">
-            <h1>Day 3: New York to Philadelphia</h1>
-            <h2>Stops</h2>
-            <ul>
-                <li>Stop 1: Princeton University (Coordinates: 40.343, -74.655)</li>
-                <li>Stop 2: Liberty Bell (Coordinates: 39.949, -75.150)</li>
-            </ul>
-            <h2>Hotel</h2>
-            <div class="hotel">
-                <img src="images/hotel3.png" alt="Hampton Inn By Hilton Los Angeles Airport">
-                <p>Name: Hampton Inn By Hilton Los Angeles Airport</p>
-                <p>Coordinates: 33.942722, -118.369611</p>
-            </div>
-            <h2>Weather</h2>
-            <div class="weather-widget">
-                <a class="weatherwidget-io" href="https://forecast7.com/en/39d95n75d16/philadelphia/" data-label_1="Philadelphia" data-label_2="Weather" data-days="3" data-theme="pure">Philadelphia Weather</a>
-            </div>
-        </section>
-        <!-- Voeg meer dagen toe -->
-    </main>
+<div class="bgimg">
+  <div class="topleft">
+    <p>Logo</p>
+  </div>
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p>35 days left</p>
+  </div>
+  <div class="bottomleft">
+    <p>Some text</p>
+  </div>
+</div>
 
-    <script src="script.js"></script>
-    <script>
-        // Weather widget script
-        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
-        if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
-        fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-    </script>
 </body>
 </html>
