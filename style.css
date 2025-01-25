@@ -50,8 +50,12 @@ h1, h2 {
   color: white;
 }
 .container{
-	padding-left: 10px;
+    padding-left: 10px;
     padding-right: 10px;
+}
+
+.stops h3{
+    color: red;
 }
 
 .hotel-img {
