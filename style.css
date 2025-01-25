@@ -54,10 +54,6 @@ h1, h2 {
     padding-right: 10px;
 }
 
-.stops h2{
-    text-decoration: underline overline;
-}
-
 .hotel-img {
     width: 100%;
     max-width: 600px;
