@@ -54,8 +54,8 @@ h1, h2 {
     padding-right: 10px;
 }
 
-.stops h3{
-    color: red;
+.stops h2{
+    text-decoration: underline overline;
 }
 
 .hotel-img {
